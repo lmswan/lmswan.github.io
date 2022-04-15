@@ -10,8 +10,8 @@ body {
 }
 
 h1 {
-	background-color: (153,153,168);
-	color: (250,250,250); /* Same as body background. */
+	background-color: rgb(153,153,168);
+	color: rgb(250,250,250); /* Same as body background. */
 	font-size: 2.5 rem;
 	padding: 2 rem 1 rem 1 rem; /* You want three values. */
 	font-weight: bolder;
@@ -60,13 +60,16 @@ p.description {
 
 p.price {
 	color: (173, 50, 43);
+	font-family: sans-serif;
+	font-style: normal;
+	font-size: 1.5 rem;
 
 }
 
 ul {
-	margin: 0.5 rem 0.5 rem 0.5 rem;
+	margin: 2 rem 1 rem 1 rem;
 }
 
 li { 
-	margin: 0.5 rem 0.5 rem;
+	margin: 2 rem 1 rem;
 }
