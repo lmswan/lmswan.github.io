@@ -63,7 +63,7 @@ p.description {
 }
 
 p.price {
-	color: (51,51,51);
+	color: rgb(51,51,51);
 	font-family: sans-serif;
 	font-style: normal;
 	font-size: 1rem;
