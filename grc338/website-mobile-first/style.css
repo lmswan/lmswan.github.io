@@ -1,0 +1,97 @@
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+
+img {
+    width: 100%; 
+}
+nav ul{
+    padding: 0; 
+}
+header{
+    background-color: rgb(70,90,72);
+
+}
+
+nav ul li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 1.15em;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    margin-bottom: 1em;
+}
+
+nav ul li a {
+    color: #222222;
+    text-decoration: none;
+}
+nav li a:hover {
+    color: #cccc;
+}
+
+menu ul li{
+    display:inline;
+    list-style-type: none;
+    margin-right: 0%;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 1em;
+    letter-spacing: 0.15em;
+    margin-top: 0.15em;
+}
+
+books ul li{
+    list-style-type: none;
+    color: rgb(232, 40, 52);
+}
+
+h1 {
+    width: 75%;
+}
+h2{
+    background-color: #fafafa;
+    display: in-line, 0;
+    font-size: 1.5em;
+    color: rgb(57,57,57);
+    margin: 1rem 0.5rem 0.5rem;
+    font-family: rooney-web, serif;
+    font-weight: 300;
+    font-style: normal;
+    text-transform: uppercase;
+}
+h3 {
+    background-color: #fafafa;
+	color: rgb(53, 53, 52); 
+	font-size: 1.5em;
+	margin: 1rem 0.5rem 0.5rem;
+    font-family: rooney-web, serif;
+    font-weight: 500;
+    font-style: normal;
+}
+h4 {
+    background-color: #fafafa;
+	color: rgb(53, 53, 52); 
+	font-size: 1em;
+	margin: 1rem 0.5rem 0.5rem;
+    font-family: rooney-web, serif;
+    font-weight: 500;
+    font-style: normal;
+	text-transform: uppercase;
+}
+p {
+    margin: 1rem 0.5rem 0.5rem;
+    font-size: 1em;
+    color: #1e1e1e;
+    font-family: rooney-web, serif;
+    font-weight: 500;
+    font-style: normal;
+    
+}
+
+ menu ul {
+     color: rbg(57,57,57);
+     font-size:1.15em;
+
+ }
