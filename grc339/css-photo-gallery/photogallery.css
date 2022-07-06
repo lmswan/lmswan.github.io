@@ -29,7 +29,7 @@ div.container {
 
 
 main {
-    position: absolute;
+    position: relative;
     overflow: hidden;
     padding-bottom: calc(72% + 3em);
 }
@@ -37,9 +37,9 @@ main {
 figure{
     margin: 0;
     width: calc(100%-2em);
-    position: relative;
-    opacity: 1;
-    transition: 0.5s 0.5s;
+    position: absolute;
+    opacity: 0;
+    transition: cubic-bezier(0, 0.5, 0.86, 1) 0.5s;
 }
 
 figcaption {
@@ -58,12 +58,12 @@ input:nth-of-type(4):checked ~ main figure:nth-of-type(4){
 }
 
 nav {
-    display: inline-flex;
-    grid-template-columns: 15em;
+    display: flex;
+    grid-template-columns: 2em;
     grid-gap: 0.2em;
 }
 
 
 input {
-    display: auto;
+    display: none;
 }
