@@ -1,0 +1,104 @@
+/*CSS document*/
+
+body {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-style: normal;
+	line-height: 1.4em;
+	color: #222;
+	background-color: #faf9e6;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color:#222;
+    font-size: medium;
+}
+h3.a{
+    font-family: sans-serif;
+    font-weight: 700;
+    text-decoration:none;
+    margin-left:  0.5em;
+    margin-right: 0.5em;
+    text-transform: uppercase;
+}
+h1{
+    margin-left: 0.5em;
+}
+
+nav ul {
+    margin-left:0.5em;
+    padding: 0;
+}
+nav ul li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.3em;
+    text-transform: uppercase;
+}
+
+nav ul li a{
+    color: #aed1e9;
+    text-decoration: none;
+}
+
+header{
+    background: #faf9e6;
+}
+article {
+    margin-left:1em;
+    margin-right: 1em;
+    background: #faf9e6;
+}
+h1 {
+    background: #faf9e6;
+    padding-top: 2em;
+    margin-bottom: 1em;
+}
+h2{
+    font-family: tarzana-narrow, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding-top: 2em;
+    margin-bottom: 1em;
+    padding-top: 2em;
+    margin-bottom: 1em;
+}
+h3{
+    font-family: tarzana-narrow, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding-top: 2em;
+    margin-bottom: 1em;   
+}
+div.container {
+    max-width: 40em;
+    margin: auto;
+}
+
+p.container {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+figure {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+footer{
+    margin-left: 0.5em;
+    margin-bottom: 2em;
+}
